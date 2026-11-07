@@ -1,0 +1,9 @@
+AUTHOR DECISION: MIT for new companion code
+Date: 2026-11-07 (Europe/Warsaw).
+Copyright (c) 2026 Michał Przybylski.
+See LICENSE for the standard MIT terms and explicit scope: GoldenQuadruple.wl,
+Tests/GoldenQuadruple.wlt and executable notebook Input-cell code only.
+Original paper/preprint and third-party material are excluded. Source paper
+retains its own CC BY 4.0. Package prose is not automatically relicensed.
+R3 remains a working review package; this licensing decision is not approval
+to publish and does not establish full front-end notebook validation.

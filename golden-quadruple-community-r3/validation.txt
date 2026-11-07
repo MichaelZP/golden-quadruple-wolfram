@@ -1,0 +1,26 @@
+R3 documentation/licensing only; NOT newly executed in Wolfram Language.
+Own checks: WL/WLT byte equality and SHA256 vs R2; all six complete notebook
+Input-cell expressions exact equality vs R2; ZIP integrity. No GUI execution.
+## User-provided second Codex report — 2026-11-07 (Europe/Warsaw)
+These are reported results, NOT independently reproduced by this preparer.
+R2 actual kernel reported: Wolfram 15.0.1, Linux x86 64bit, July 2 2026;
+$SystemID: Linux-x86-64. Runner via Get: 12/12; independent TestReport: 12/12,
+both fresh and with u=2;t=0, with no ActualMessages. symbolicChecks[] returned
+{0,0}, preserving u,t. Negative controls (mutated differences and phi=2)
+returned nonzero results. Runner PNG reported as 928x475.
+Of six notebook Input cells evaluated directly in the kernel, 1–4 and 6
+passed; cell 5 failed because NotebookDirectory[] returned $Failed outside an
+evaluation-notebook context, followed by Get::stream. This is not full
+notebook success. NotebookEvaluate remained unresolved; NotebookOpen returned
+$Failed; UsingFrontEnd returned an internal-service error. Full graphical
+front-end notebook validation has NOT passed.
+
+R3 is documentation/licensing only. Its executable bytes are identical to R2,
+but R3 itself has NOT been newly executed. No independent Wolfram execution
+was performed here. Access to a working graphical Wolfram front end is not
+established.
+
+GoldenQuadruple.wl: byte-identical; SHA256 76920e0f861e0768f4e3eab06d9e53e526eec11c0be99240cd6b168cc09b5858
+Tests/GoldenQuadruple.wlt: byte-identical; SHA256 31fcd1d2f7878d90224d2397bad60ab0516ea398450ebbc50b88f678577fa071
+GoldenQuadruple.nb: all 6 complete executable Input-cell expressions exactly identical to R2.
+Only notebook explanatory text/title/window title changed.
