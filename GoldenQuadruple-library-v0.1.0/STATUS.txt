@@ -1,0 +1,20 @@
+# GoldenQuadruple library v0.1.0 — proposed release
+Author: Michał Przybylski. Library release v0.1.0.
+
+Small standalone Wolfram Language package: ordered golden quadruple, six
+exact differences and multiplicities, Fibonacci closure residuals, and cosine
+sum/closed form. Includes Start.nb, RunTests.wl and 16 VerificationTest cases.
+Library code is byte-identical to the stage-1 draft. Tests and notebook were
+added in the supplied checked package; their bytes are preserved here.
+
+Validation provenance — 2026-11-07 (Poland, Europe/Warsaw): the supplied
+WYNIKI-SPRAWDZENIA.txt reports 16/16 in a remote Wolfram plugin, also with
+Global`u=2, Global`t=0, Global`phi=99, preserving those globals. Separately,
+the author reported that Start.nb worked in desktop Mathematica trial and
+confirmed 16/16. Desktop contamination was NOT established. These are supplied
+reports, not execution or independent verification by this preparer. No new
+runtime, symbolic or numerical computation was performed for packaging.
+
+MIT LICENSE, copyright 2026 Michał Przybylski, covers the new library code, Tests/*.wlt, RunTests.wl and executable Start.nb cells by explicit author approval dated 2026-11-07 (Europe/Warsaw). Paper, third-party material and prose are excluded.
+
+Static checks only: complete package present; library equals stage-1 draft; all supplied WL/WLT/NB bytes unchanged; LICENSE scope expanded by explicit author approval.

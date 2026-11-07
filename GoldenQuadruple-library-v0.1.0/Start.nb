@@ -1,0 +1,10 @@
+Notebook[{
+Cell["GoldenQuadruple — sprawdzona biblioteka","Title"],
+Cell["Otwórz ten zapisany notatnik i uruchom komórki od góry przez Shift+Enter. Pliki pakietu i folder Tests muszą pozostać obok notatnika. Kod biblioteki zachowano bez zmian.","Text"],
+Cell[BoxData[RowBox[{"ToExpression","[","\"Get[FileNameJoin[{NotebookDirectory[],\\\"GoldenQuadruple.wl\\\"}]]\"","]"}]],"Input"],
+Cell[BoxData[RowBox[{"ToExpression","[","\"GoldenQuadruple`GoldenQuadruple[((1+Sqrt[5])/2)^4,1]\"","]"}]],"Input"],
+Cell[BoxData[RowBox[{"ToExpression","[","\"{GoldenQuadruple`GoldenDifferences[1],GoldenQuadruple`GoldenMultiplicities[1],GoldenQuadruple`FibonacciClosureResiduals[8,1]}\"","]"}]],"Input"],
+Cell[BoxData[RowBox[{"ToExpression","[","\"Module[{tt}, {GoldenQuadruple`GoldenCosineSum[1,tt], GoldenQuadruple`GoldenCosineClosedForm[1,tt]}]\"","]"}]],"Input"],
+Cell[BoxData[RowBox[{"ToExpression","[","\"Module[{tt},Plot[Evaluate[{GoldenQuadruple`GoldenCosineSum[1,tt],GoldenQuadruple`GoldenCosineSum[1,tt+21]}],{tt,-10,10},PlotRange->{-2,6},PlotLegends->{\\\"C(t)\\\",\\\"C(t+21)\\\"}]]\"","]"}]],"Input"],
+Cell[BoxData[RowBox[{"ToExpression","[","\"TestReport[FileNameJoin[{NotebookDirectory[],\\\"Tests\\\",\\\"GoldenQuadruple.wlt\\\"}]]\"","]"}]],"Input"]
+},WindowTitle->"GoldenQuadruple — biblioteka",StyleDefinitions->"Default.nb"]

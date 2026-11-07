@@ -1,0 +1,11 @@
+Sprawdzenie 2026-11-07, plugin Wolfram, kernel zdalny.
+
+16/16 testów przeszło w osobnym wywołaniu.
+16/16 przeszło również przy Global`u=2, Global`t=0, Global`phi=99. Wartości te po załadowaniu i testach pozostały niezmienione.
+Brak testów zakończonych błędnym wynikiem, komunikatem lub błędem.
+
+Zakres: sześć publicznych nazw; długość i dodatniość czwórki; sześć różnic; zgodność różnic z parami punktów; symboliczna skala; krotności i ich wartości; reszty n=8 oraz n=2..40; wartość sumy w zerze; symboliczna tożsamość cosinusów; zgodność z sześcioma parami; 401 punktów numerycznych z precyzją 50 cyfr; parzystość i przesunięcie punktów.
+
+GoldenQuadruple.wl zachowano bez zmian. README i STATUS pochodzą z oryginalnego szkicu i opisują stan sprzed niniejszych testów. Dodano testy, RunTests.wl i Start.nb. Nie przeprowadzono lokalnego uruchomienia w GUI Mathematica. Testy skończone nie zastępują dowodów; argumenty spoza udokumentowanej dziedziny nie są walidowane.
+
+Uruchomienie: rozpakuj całość i otwórz Start.nb. Pierwsza komórka ładuje bibliotekę; brak wyniku z Get jest normalny. Następne pokazują wyniki, wykres i raport testów.

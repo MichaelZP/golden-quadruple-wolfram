@@ -48,3 +48,6 @@ or change the provenance of earlier Codex kernel results.
 This follow-up updates documentation/release notes only. R3 and R3.1 tags,
 ZIP assets and executable code remain unchanged. Their bundled documents
 retain the earlier validation status as historical records.
+
+## Standalone library v0.1.0
+Six API functions, Start.nb and 16 tests: [library source](GoldenQuadruple-library-v0.1.0/README.md) and [release ZIP](https://github.com/MichaelZP/golden-quadruple-wolfram/releases/tag/golden-quadruple-library-v0.1.0). Separate from the earlier computational companion. See library documentation for attributed validation and MIT scope.

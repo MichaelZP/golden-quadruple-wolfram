@@ -1,0 +1,5 @@
+GoldenQuadruple.wl fe5dd60ac155bdf7db04653d8af476677576667a6e90e8d8f6ed082ccf1b8bea
+RunTests.wl 27742954d7c7bb0f1f398b7bc60e120e83145bce4eddab85c0fc1b5b78580e67
+Start.nb d02b8587185b6e1f450eb0df6c962dda8fd603f317ccd1318132d10cb050492f
+Tests/GoldenQuadruple.wlt c19008f4a7b2187cdbac7c07d16594eec532f7e063b80750e4a1f3334a41771d
+WL/WLT/NB byte-identical to supplied checked package. LICENSE scope expanded with explicit author approval 2026-11-07 Europe/Warsaw.
