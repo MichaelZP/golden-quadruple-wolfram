@@ -34,3 +34,17 @@ Historical R3 tag/release/ZIP remain untouched. User reports GUI success;
 complete GUI evaluation both fresh and u=2;t=0 remains unconfirmed.
 Supplied 12/12 kernel-test reports are not independent execution here.
 This maintenance fix received static review only, no Wolfram/GUI execution.
+
+## R3.1 documentation follow-up: author-reported manual GUI validation
+On 2026-11-07 (Europe/Warsaw), the author reported evaluating the complete
+saved notebook in the graphical interface in two runs: first after Quit[],
+then after Quit[] followed by u=2;t=0;. For the fresh run he reported the
+plot and outputs for each evaluation; for the contaminated run he reported
+the plot and no red messages. Both full runs were reported successful, with
+no reported errors. This is author-reported manual GUI validation, not an
+independent GUI execution by the preparer. Raw logs and a kernel-version
+screenshot were not supplied. This does not constitute a new 12/12 test run
+or change the provenance of earlier Codex kernel results.
+This follow-up updates documentation/release notes only. R3 and R3.1 tags,
+ZIP assets and executable code remain unchanged. Their bundled documents
+retain the earlier validation status as historical records.
