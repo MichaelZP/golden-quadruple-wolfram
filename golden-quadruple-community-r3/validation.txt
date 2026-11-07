@@ -24,3 +24,12 @@ GoldenQuadruple.wl: byte-identical; SHA256 76920e0f861e0768f4e3eab06d9e53e526eec
 Tests/GoldenQuadruple.wlt: byte-identical; SHA256 31fcd1d2f7878d90224d2397bad60ab0516ea398450ebbc50b88f678577fa071
 GoldenQuadruple.nb: all 6 complete executable Input-cell expressions exactly identical to R2.
 Only notebook explanatory text/title/window title changed.
+
+## Post-R3 notebook display correction — 2026-11-07 (Europe/Warsaw)
+Current main removes terminal semicolons in the first three notebook Input
+cells, displaying results instead of Null. ToExpression and NotebookDirectory[]
+runner dependency remain unchanged. WL/WLT mathematics and LICENSE are unchanged.
+Historical R3 tag/release/ZIP remain untouched. User reports GUI success;
+complete GUI evaluation both fresh and u=2;t=0 remains unconfirmed.
+Supplied 12/12 kernel-test reports are not independent execution here.
+This maintenance fix received static review only, no Wolfram/GUI execution.

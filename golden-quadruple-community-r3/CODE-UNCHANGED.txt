@@ -1,4 +1,5 @@
-GoldenQuadruple.wl: byte-identical; SHA256 76920e0f861e0768f4e3eab06d9e53e526eec11c0be99240cd6b168cc09b5858
-Tests/GoldenQuadruple.wlt: byte-identical; SHA256 31fcd1d2f7878d90224d2397bad60ab0516ea398450ebbc50b88f678577fa071
-GoldenQuadruple.nb: all 6 complete executable Input-cell expressions exactly identical to R2.
-Only notebook explanatory text/title/window title changed.
+Post-R3 display fix: WL/WLT and LICENSE byte-identical to R3.
+Six notebook Input cells retained. First three differ only in terminal
+semicolon/blank whitespace removal; last three exactly identical.
+The prior all-Input-identical-to-R2 assertion applies to historical R3,
+not current main. No new Wolfram execution. Full GUI coverage unconfirmed.

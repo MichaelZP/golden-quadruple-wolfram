@@ -59,3 +59,12 @@ blocker rather than retrying headless front-end operations.
 ## Mathematical scope
 T1 / Example 7.1: exact points, numerical-order comparator on exact differences, multiplicities. Prop.5.3: finite exact checks n=2..40, not a universal proof. Definition2.10/Prop6.2: six-pair sum and symbolic identity. Numerical-only: finite 50-digit grid. No Lean coverage or full general proof claim.
 For u=1, tau8=Fib[8]=21 and 21 phi=34-phi^-8; a finite shifted plot is not proof of almost periodicity or a global supremum.
+
+## Post-R3 notebook display correction — 2026-11-07 (Europe/Warsaw)
+Current main removes terminal semicolons in the first three notebook Input
+cells, displaying results instead of Null. ToExpression and NotebookDirectory[]
+runner dependency remain unchanged. WL/WLT mathematics and LICENSE are unchanged.
+Historical R3 tag/release/ZIP remain untouched. User reports GUI success;
+complete GUI evaluation both fresh and u=2;t=0 remains unconfirmed.
+Supplied 12/12 kernel-test reports are not independent execution here.
+This maintenance fix received static review only, no Wolfram/GUI execution.
